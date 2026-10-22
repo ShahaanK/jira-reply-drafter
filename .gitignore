@@ -1,0 +1,18 @@
+# Credentials and local data (real ticket text) - never commit
+.env
+.autodrafter/
+*.db
+*.db-wal
+*.db-shm
+out/
+
+# KB articles are a separate repo, cloned inside this folder
+
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+*.egg-info/
